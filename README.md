@@ -55,7 +55,7 @@
 ### Установка
 ```bash
 # Клонирование репозитория
-git clone <https://github.com/7doctor7/currency-converter-nextjs>
+git clone https://github.com/7doctor7/currency-converter-nextjs
 cd currency-converter
 
 # Установка зависимостей
@@ -66,13 +66,8 @@ npm run dev
 ```
 
 ### Конфигурация
-Приложение использует переменные окружения для настройки. Скопируйте `.env.example` в `.env.local`:
+Приложение использует переменные окружения для настройки. Создайте `.env` с переменными:
 
-```bash
-cp .env.example .env.local
-```
-
-Переменные в `.env`:
 ```bash
 # Environment configuration
 NODE_ENV=development
