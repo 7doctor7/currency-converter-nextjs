@@ -1,17 +1,7 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
   /* config options here */
-  output: 'standalone',
-  turbopack: {
-    rules: {
-      '*.svg': {
-        loaders: ['@svgr/webpack'],
-        as: '*.js',
-      },
-    },
-  },
-  // Оптимизация для Vercel
   images: {
     domains: ['flagcdn.com'],
     formats: ['image/webp', 'image/avif'],

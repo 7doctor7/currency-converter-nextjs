@@ -9,7 +9,7 @@
   },
   "functions": {
     "src/app/**/*.tsx": {
-      "runtime": "nodejs18.x"
+      "maxDuration": 30
     }
   },
   "headers": [
@@ -36,5 +36,8 @@
       "source": "/currencies.json",
       "destination": "/api/currencies"
     }
-  ]
+  ],
+  "regions": ["fra1"],
+  "cleanUrls": true,
+  "trailingSlash": false
 }
