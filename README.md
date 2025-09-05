@@ -1,5 +1,7 @@
 # Currency Converter
 
+https://currency-converter-nextjs-omega.vercel.app/
+
 Приложение для конвертации валют в реальном времени с поддержкой оффлайн режима.
 
 ### Основные возможности
